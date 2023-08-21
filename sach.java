@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package baitapt4;
 
 /**
@@ -22,15 +18,26 @@ public class sach {
      public String getmaSach(){
         return maSach;
     }
-     
+     public void settenSach(String ten){
+        this.tenSach=ten;
+    }
     public String gettenSach(){
         return tenSach;
+    }
+    public void settenTacGia(String TacGia){
+        this.tenTacgia=TacGia;
     }
     public String gettenTacgia(){
         return tenTacgia;
     }
+    public void setnhaXuatBan(String NXB){
+        this.nhaXuatBan=NXB;
+    }
     public String getnhaXuatBan(){
         return nhaXuatBan;
+    }
+     public void setnamXuatBan(int nNXB){
+        this.namXuatBan=nNXB;
     }
     public int getnamXuatBan(){
         return namXuatBan;
@@ -67,3 +74,4 @@ public class sach {
         System.out.println("");
 }
 }
+
