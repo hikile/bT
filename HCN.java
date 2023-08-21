@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package baitapt4;
 
 /**
@@ -45,4 +41,17 @@ public class HCN {
     public float dienTich(){
         return chieuDai * chieuRong;
     }
+     public static void main(String[] args) {
+        HCN hcn=new HCN();
+        hcn.nhap();
+        System.out.println("");
+        System.out.println("chieu dai cua hinh chu nhat la: " + hcn.chieuDai);
+        System.out.println("chieu rong cua hinh chu nhat la: " + hcn.chieuRong);
+        System.out.println("");
+        hcn.veHCN();
+        System.out.println("chu vi cua hinh chu nhat la : " + hcn.chuVi());
+        System.out.println("dien tich cua hinh chu nhat la:  " + hcn.dienTich());
+        System.out.println("chieu dai cua hinh chu nhat la: " + hcn.chieuDai);
+        System.out.println("");
+     }
 }
